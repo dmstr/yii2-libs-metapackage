@@ -2,9 +2,9 @@
     "name": "dmstr/yii2-libs-metapackage",
     "description": "Core Library Extensions for Phundament 4 (Yii 2.0 Framework)",
     "require": {
-        "codemix/yii2-localeurls": "1.*",
-        "codemix/yii2-streamlog": "*",
-        "dmstr/yii2-app-command": ">=0.3",
+        "codemix/yii2-localeurls": "^1.3",
+        "codemix/yii2-streamlog": "^1.0",
+        "dmstr/yii2-app-command": "0.5",
         "dmstr/yii2-application-metadata": "*",
         "dmstr/yii2-bootstrap": "*",
         "dmstr/yii2-db": "*",
