@@ -8,6 +8,7 @@
         "dmstr/yii2-db": "~0.3",
         "dmstr/yii2-helpers": "~0.1",
         "dmstr/yii2-migrate-command": "~0.3",
+        "dmstr/yii2-web": "~0.1",
         "mikehaertl/php-shellcommand": "^1.2",
         "schmunk42/retry": "~0.0",
         "yiisoft/yii2-swiftmailer": "2.*"
