@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c494318f47f83ef9984def2adb5b554",
-    "content-hash": "33d4444c49d45acfabf96d409caa7312",
+    "hash": "998884d0736ee39f509054e41e4e164f",
+    "content-hash": "643d351f9f8ac0d28158466cc0a0d96f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -89,16 +89,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.2.7",
+            "version": "3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "ec7726993217ee7b01023ad4f7f1b6a51446a39d"
+                "reference": "a55007d1e535d3a734972dbfc1969d98f8449e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/ec7726993217ee7b01023ad4f7f1b6a51446a39d",
-                "reference": "ec7726993217ee7b01023ad4f7f1b6a51446a39d",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/a55007d1e535d3a734972dbfc1969d98f8449e94",
+                "reference": "a55007d1e535d3a734972dbfc1969d98f8449e94",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,14 @@
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": [
-                    "./dist/inputmask/inputmask.js"
+                    "./dist/inputmask/inputmask.dependencyLib",
+                    "./dist/inputmask/inputmask",
+                    "./dist/inputmask/inputmask.extensions",
+                    "./dist/inputmask/inputmask.date.extensions",
+                    "./dist/inputmask/inputmask.numeric.extensions",
+                    "./dist/inputmask/inputmask.phone.extensions",
+                    "./dist/inputmask/inputmask.regex.extensions",
+                    "./dist/inputmask/jquery.inputmask"
                 ],
                 "bower-asset-ignore": [
                     "**/*",
@@ -378,16 +385,16 @@
         },
         {
             "name": "dmstr/yii2-cookie-button",
-            "version": "0.1.3",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-cookie-button.git",
-                "reference": "ccd7f9e077e07338aeb404fe6098e43fff0682ae"
+                "reference": "0ee34e4ec898d5b11750632cabe4d9a662529050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-cookie-button/zipball/ccd7f9e077e07338aeb404fe6098e43fff0682ae",
-                "reference": "ccd7f9e077e07338aeb404fe6098e43fff0682ae",
+                "url": "https://api.github.com/repos/dmstr/yii2-cookie-button/zipball/0ee34e4ec898d5b11750632cabe4d9a662529050",
+                "reference": "0ee34e4ec898d5b11750632cabe4d9a662529050",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +424,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2014-09-05 17:31:57"
+            "time": "2017-02-17 09:53:52"
         },
         {
             "name": "dmstr/yii2-db",
@@ -511,20 +518,20 @@
         },
         {
             "name": "dmstr/yii2-migrate-command",
-            "version": "0.3.2",
+            "version": "0.4.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-migrate-command.git",
-                "reference": "81fecdf73aa6a6a2be95f2cea7fa707199da82c9"
+                "reference": "7e4da97e90dcb4343d5b8ed211c3da89ff49bc50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-migrate-command/zipball/81fecdf73aa6a6a2be95f2cea7fa707199da82c9",
-                "reference": "81fecdf73aa6a6a2be95f2cea7fa707199da82c9",
+                "url": "https://api.github.com/repos/dmstr/yii2-migrate-command/zipball/7e4da97e90dcb4343d5b8ed211c3da89ff49bc50",
+                "reference": "7e4da97e90dcb4343d5b8ed211c3da89ff49bc50",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "<2.0.10"
+                "yiisoft/yii2": "~2.0.10"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -550,7 +557,7 @@
                 "migration",
                 "yii2"
             ],
-            "time": "2017-01-09 18:32:51"
+            "time": "2017-02-21 23:25:38"
         },
         {
             "name": "dmstr/yii2-web",
@@ -777,21 +784,21 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.9",
+            "version": "2.0.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "2b75151ea60e1fd820046416eee2e89c3dda1133"
+                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2b75151ea60e1fd820046416eee2e89c3dda1133",
-                "reference": "2b75151ea60e1fd820046416eee2e89c3dda1133",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
+                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
-                "bower-asset/jquery.inputmask": "~3.2.2",
+                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.3",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "cebe/markdown": "~1.0.0 | ~1.1.0",
@@ -859,6 +866,12 @@
                     "name": "Dmitry Naumenko",
                     "email": "d.naumenko.a@gmail.com",
                     "role": "Core framework development"
+                },
+                {
+                    "name": "Boudewijn Vahrmeijer",
+                    "email": "info@dynasource.eu",
+                    "homepage": "http://dynasource.eu",
+                    "role": "Core framework development"
                 }
             ],
             "description": "Yii PHP Framework Version 2",
@@ -867,7 +880,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-07-11 13:36:42"
+            "time": "2017-02-08 09:04:32"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1023,7 +1036,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dmstr/yii2-migrate-command": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

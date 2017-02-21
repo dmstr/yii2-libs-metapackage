@@ -8,7 +8,7 @@
         "dmstr/yii2-cookie-button": "^0.2.0",
         "dmstr/yii2-db": "~0.7",
         "dmstr/yii2-helpers": "~0.1",
-        "dmstr/yii2-migrate-command": "^0.3.2",
+        "dmstr/yii2-migrate-command": "^0.4.0-beta1",
         "dmstr/yii2-web": "~0.4",
         "mikehaertl/php-shellcommand": "^1.2.4",
         "schmunk42/retry": "~0.0",
